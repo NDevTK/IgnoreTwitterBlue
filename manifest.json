@@ -1,0 +1,12 @@
+{
+  "name": "Ignore Twitter blue",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": [
+    "https://twitter.com/*"
+  ],
+  "permissions": ["scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
